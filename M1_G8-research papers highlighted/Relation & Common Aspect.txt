@@ -1,0 +1,9 @@
+#related ?
+-related
+
+#common aspect
+-Self Organizing Network for
+Energy Efficient Ultra-Dense Small Cells (the optimal values of energy efficiency, spectral efficiency, average area rate,
+and average user rate)
+===============================
+===============================

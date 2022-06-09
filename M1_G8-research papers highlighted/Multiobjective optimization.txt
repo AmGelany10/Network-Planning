@@ -1,0 +1,82 @@
+#Title
+=Multiobjective optimization based on self-organizing
+Particle Swarm Optimization algorithm for massive MIMO 5G wireless network
+
+
+
+#Date of Publication
+=12 December 2020
+
+
+
+#Objective of paper
+=obtaining the simulatenously optimal solution for many objective functions in 5G WN with mMIMO, such as user data rate, energy efficiency, spectral efficiency, and average area rate
+
+
+
+#Motivation of the Objective
+=On the basis of current advances, the issues of 5G networks that aren't fully stated in LTE-advanced systems should be addressed.
+Higher data rate, energy efficiency, area rate, and spectrum efficiency are the four factors.
+A solution to one problem may deteriorate a solution to another. In addition, optimizing the all aspects together in one
+model without converting them into single problems.
+
+
+
+#A QoS requirement.
+=If the total number of users is constant, then the energy efficiency will increase with the number of BS antennas, but the
+energy efficiency is not increased with the number of BS antennas after reaching certain point because of the restriction
+of the total number of users in the network.
+=the spectral efficiency attains its maximum value with less number of BS antennas and
+users.
+=the transmission rate per unit area is linearly increased
+with number of transmitting antenna, but the performance of the average area rate will be reduced while increasing
+the radius of the area.
+=the data rate per user will be increased when the number of antenna array at the BS is increased.
+However, the user rate will be reduced when the number of users in a cell is increased.
+=The result shows that the average area rate is decreased with the increase in the average user rate.
+For the average user rate and energy efficiency objectives are conflicting with one another because if one
+needs to increase the user rate means, he should make radical sacrifices in the energy efficiency. One more trade-off is
+shown in Figure 4C, wherein the energy efficiency and average area rate are related. In this graph, both the objectives
+are linearly increased until the energy efficiency reaches its maximum value, but further improvement in area rate may
+loss some energy efficiency.
+
+
+
+#Is the Problem linear /non-linear
+=non-linear
+
+
+#Techniques used to solve the problem
+=SOMPSO.
+=Pareto optimality analysis.
+
+
+#Their suggested future work
+=We will expand this work in the future to allocate the resources by considering all maximization and minimization problems.
+
+
+#centralized /decentralized
+=decentralized
+
+==========================
+
+#what exactly the research does ?
+The main contributions of our proposed work are as follows:
+• To develop an optimization framework for optimizing the downlink communication of a mMIMO network to find a
+trade-off between four conflicting objectives: average area rates, average user rates, spectral efficiency, and energy
+efficiency.
+• To introduce a novel self-organizing particle swarm optimizer (SOMPSO) for determining nondominated solutions in
+one run without converting the problems into a single optimization problem as the traditional MOO approaches.
+• To construct neighborhood relations in decision space, this will maintain the diversity of the solution by integrating
+SOM with the MOPSO algorithm. Here, SOM is used to determine the solution distribution of the present population
+by picking the neighborhood relations. It improves the distribution characteristics in both decision and objective
+space.
+• To increase the diversity of the Pareto optimal sets, an elite learning methodology is used.
+
+
+
+#weaknesses
+=This is the assumption made by us for simplifying the definition.
+In order to avoid intracellular interference, zero-forcing precoding is performed. It forms a beam, and the power
+allocation is adapted for guaranteeing a similar rate to each user (neglect intracellular interference).
+=approximate PFs are acquired once the optimization framework reaches 250 iterations (small number of ieration).

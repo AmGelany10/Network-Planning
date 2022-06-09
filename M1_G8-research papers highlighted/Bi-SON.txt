@@ -1,0 +1,86 @@
+#Title
+=Bi-SON: Big-Data Self Organizing Network for
+Energy Efficient Ultra-Dense Small Cells
+
+
+
+#Date of Publication
+=2016
+
+
+
+#Objective of paper
+=optimize energy efficiency
+of ultra-dense small cells.
+
+
+
+#Motivation of the Objective
+=Although small cell can enhance
+the capacity of cellular mobile networks, ultra-dense small cells
+suffer from severe interference and poor energy efficiency.
+and
+=we develop a big-data self organizing network
+(Bi-SON) framework with data-driven dynamic power
+control scheme to improve energy efficiency of the outdoor
+ultra-dense small cell network system.
+
+
+
+#A QoS requirement.
+1)Bi-SON can improve throughput and energy efficiency by 50%
+and 135% respectively, compared to the scheme without energy
+saving approach.
+2)Bi-SON with data-driven dynamic power control scheme can
+improve 50% higher cell throughput and 135% higher energy
+efficiency respectively, compared to the approach without any
+power control in the 5G ultra-dense small cell network.
+
+
+
+#Is the Problem linear /non-linear
+= non-linear
+
+
+
+#Techniques used to solve the problem (search for word approach or algorithm)
+=polynomial regression (PR).
+=Big Data analytics approach
+
+
+
+
+#Their suggested future work
+=no future work mentioned
+
+
+
+#centralized /decentralized
+=Centralized
+
+
+==========================
+#what exactly the research does ?
+=Our proposed
+Bi-SON suggests a data flow framework from data collection,
+analysis and optimization to reconfiguration. We adopt the
+statistics analysis approach to determine the optimal system
+parameters to improve the energy efficiency of a huge number
+of outdoor small cells. The Bi-SON mechanism periodically
+collects the management data of small cells, e.g. transmission
+power, reference signal receiving power and the number of users
+per cell. We find that simple sorting and filtering data analysis
+from huge number of small cells can already effectively find
+the almost optimal solution.
+
+
+#weakness
+1) The static analysis model can not
+update the polynomial coefficients with the density variations
+of active users, while the D3A model can periodically update
+the polynomial coefficients every three hour.
+2) We assume
+that the macro cell and the small cell use different frequency
+for transmission so that there is no cross-tier interference,
+and the co-channel interference exists only in the small cell
+layer.

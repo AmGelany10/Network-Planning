@@ -1,0 +1,87 @@
+#Title
+=Energy-Efficient SON-Based User-Centric Backhaul Scheme
+
+
+
+#Date of Publication
+=2017
+
+
+
+#Objective of paper
+=The energy efficiency in a 5G network of small cells with
+multi-last-mile connections is thus the focus of this work
+
+
+
+#Motivation of the Objective
+=Energy Efficient Ultra-Dense Small Cells can reduce
+networks’ carbon footprint and energy bills.
+
+
+
+#A QoS requirement.
+1)in this work reaches quality of experience (QoE)
+targets while reducing the energy consumption by up to 21.9%
+and maintaining the total system throughput.
+2)In brief, the proposed algorithm has effectively
+improved the energy efficiency of the backhaul network by
+11.4% at the cost of slight degradation in total throughput of 2.44% and 1.16% users’ QoE.
+
+
+
+#Is the Problem linear /non-linear
+=non-linear
+
+
+
+#Techniques used to solve the problem
+=Manhattan grid
+=sliding-window concepts
+
+
+#Their suggested future work
+=no future work mentioned
+
+
+#centralized /decentralized
+=The scheme uses a two-steps optimisation approach: the first is
+centralised and the second is distributed.
+
+==========================
+
+#what exactly the research does ?
+=offering an energy-efficient approach to the new user-centric backhaul
+concept in a heterogeneous and hybrid backhaul network. The
+approach is automated and it successfully mediates between three
+conflicting optimisation objectives: network, users, and energy
+key performance indicators.
+=The energy efficiency in a 5G network of small cells with
+multi-last-mile connections is thus the focus of this work.
+
+
+#weaknesses
+=the total network throughput - a network KPI, witnesses a slight degradation of 2.44%, on average.
+=the number of active last-mile backhaul links has dropped from a constant 18×100 in the UCB scenario to 1571 over the recorded period, indicating a reduction of 12.72%.
+=some points is mentioned in sensitivity analysis section as effect of paramteres tuning:
+-When the minimum load is decreased from 20% to
+10% between Scenarios (A and A1) and (A4 and A4.1), the
+resulting throughput and QoE degradation is reduced as well as
+the energy efficiency gain.
+-when the load threshold is increased to 30% in Scenario A2,
+the energy efficiency gain is improved but higher degradation
+in throughput and QoE is recorded.
+-The accepted QoE gap is changed to 5% in Scenario A3,
+resulting in further reduction in total throughput and degradation
+in users’ QoE, compared to the basic Scenario A
+with 1% setting. However, the gain in energy efficiency has
+significantly improved (21.9%).
+-reducing the accepted QoE gap to 0.5% has the opposite
+effect, and the gains of the proposed algorithm become limited,
+as shown with Scenario A4.
+-The role of the sliding windows sizes is assessed next, by reducing
+the activation sliding window separately or both activation and deactivation windows
+less stable behaviour of the proposed algorithm
+with more frequent toggling between ON/OFF status.
+without considerable gain in energy efficiency nor network or
+users’ KPIs.
